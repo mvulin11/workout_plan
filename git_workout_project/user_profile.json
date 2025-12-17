@@ -1,0 +1,506 @@
+{
+    "user_name": "Lianna",
+    "primary_goal": "Aesthetic Hypertrophy",
+    "google_sheet_name": "My Workout Plan",
+    "current_week": 2,
+    "user_context": {
+        "stats": "Female, 5'2'', 110 lbs",
+        "experience": "Intermediate/Advanced (1+ year with advanced coaching)",
+        "gym_profile": "Planet Fitness (Smith Machine, Dumbbells, Cables, Machines - NO Barbell)",
+        "specific_goals": "Lose fat, gain muscle. Focus: Back, Core, Triceps, Obliques, Glutes (Bigger), Quads (Nicer), Calves."
+    },
+    "maxes": {
+        "Barbell Hip Thrust": 135,
+        "Smith Machine Squat": 75,
+        "Romanian Deadlift": 95,
+        "Overhead Press": 45,
+        "Lat Pulldown": 70
+    },
+    "menstrual_cycle": {
+        "last_period_start": "2025-11-27",
+        "average_cycle_length": 28,
+        "track_cycle": true
+    },
+    "nutrition": {
+        "calorie_target": 1800,
+        "protein_target_g": 120,
+        "carb_target_g": 180,
+        "fat_target_g": 60
+    },
+    "recovery_metrics": {
+        "garmin_enabled": false,
+        "min_sleep_hours": 7,
+        "max_stress_threshold": 50
+    },
+    "schedule_slots": [
+        {
+            "day_name": "Monday",
+            "focus": "Glutes & Hamstrings (Posterior)",
+            "categories": [
+                "Glute_Compound_Heavy",
+                "Hinge_Pattern",
+                "Glute_Shortened_Iso",
+                "Hamstring_Lengthened",
+                "Unilateral_Leg_Support"
+            ]
+        },
+        {
+            "day_name": "Tuesday",
+            "focus": "Upper Body Structure (Supersets)",
+            "categories": [
+                "Vertical_Pull_Heavy",
+                "Overhead_Press_Heavy",
+                "Horizontal_Row_Volume",
+                [
+                    "Lateral_Delt_Iso",
+                    "Tricep_Iso"
+                ]
+            ]
+        },
+        {
+            "day_name": "Wednesday",
+            "focus": "Quads & Calves (Anterior)",
+            "categories": [
+                "Squat_Pattern_Heavy",
+                "Lunge_Pattern",
+                [
+                    "Quad_Isolation_Shortened",
+                    "Calves_Straight_Leg"
+                ],
+                "Core_Stability"
+            ]
+        },
+        {
+            "day_name": "Thursday",
+            "focus": "Arms & Abs (Antagonist Supersets)",
+            "categories": [
+                "Horizontal_Push",
+                [
+                    "Bicep_Isolation",
+                    "Tricep_Overhead"
+                ],
+                [
+                    "Lateral_Delt_Iso",
+                    "Core_Rotation"
+                ]
+            ]
+        },
+        {
+            "day_name": "Friday",
+            "focus": "Glute Pump & Full Body",
+            "categories": [
+                "Glute_Bridge_Volume",
+                "Hinge_Unilateral",
+                "Abductor_Iso",
+                "Vertical_Pull_Volume",
+                "Rear_Delt_Fly"
+            ]
+        }
+    ],
+    "exercise_database": {
+        "Glute_Compound_Heavy": [
+            {
+                "name": "Barbell Hip Thrust",
+                "url": "https://youtube.com/shorts/42lU8xsumBo?si=0ta8M2QdtA2mxYom",
+                "desc": "Athlean-X: Drive through heels. Do NOT hyperextend lumbar spine. Chin tucked.",
+                "alt": "Smith Machine Hip Thrust"
+            },
+            {
+                "name": "Smith Machine Hip Thrust",
+                "url": "https://www.youtube.com/watch?v=pXrlpwmdpI4",
+                "desc": "Set safety stops. Control the eccentric. Don't drop the weight.",
+                "alt": "Barbell Hip Thrust"
+            },
+            {
+                "name": "KAS Glute Bridge",
+                "url": "https://youtube.com/shorts/ysWdBc1a1FA?si=r7CIkldL0n9x618V",
+                "desc": "Partial ROM. Keep tension 100% on glutes. Top half only.",
+                "alt": "Plate Loaded Bridge Machine"
+            }
+        ],
+        "Glute_Shortened_Iso": [
+            {
+                "name": "Cable Kickbacks",
+                "url": "https://youtube.com/shorts/n-cgsNePyFo?si=PMGE9IxoVJETx5dn",
+                "desc": "Do not rotate the hips. Pure hip extension. Keep core braced.",
+                "alt": "Machine Kickback"
+            },
+            {
+                "name": "45 Degree Hyperextension",
+                "url": "https://youtube.com/shorts/S1_eZIIZlIc?si=QaAPkyC-BxGkBX77",
+                "desc": "Round upper back to kill momentum. Squeeze glutes at top.",
+                "alt": "Reverse Hypers"
+            },
+            {
+                "name": "Frog Pumps",
+                "url": "https://youtu.be/MQ62r2V7Lw8?si=2Q8PGLqmFTOwyx4s",
+                "desc": "Soles of feet together. High reps to burnout.",
+                "alt": "Seated Abduction"
+            }
+        ],
+        "Glute_Bridge_Volume": [
+            {
+                "name": "B-Stance Hip Thrust",
+                "url": "https://youtu.be/9rDq2uQdau0?si=16JcWa1ZuRGiDEaz",
+                "desc": "Use non-working leg as a kickstand only. 90% load on working leg.",
+                "alt": "Single Leg Glute Bridge"
+            },
+            {
+                "name": "Dumbbell Hip Thrust",
+                "url": "https://youtube.com/shorts/XZ52CZnPKq4?si=HhF79SfzoZRKRBKi",
+                "desc": "Pause at the top for 2 seconds. Squeeze hard.",
+                "alt": "Band Resisted Bridge"
+            }
+        ],
+        "Hinge_Pattern": [
+            {
+                "name": "Romanian Deadlift",
+                "url": "https://youtube.com/shorts/_TchJLlBO-4?si=eQ1oG8WZMGcspA92",
+                "desc": "Athlean-X: Push hips back until hamstrings limit you. Soft knees.",
+                "alt": "Dumbbell RDL"
+            },
+            {
+                "name": "Dumbbell RDL",
+                "url": "https://youtube.com/shorts/CBOhr6H7BEY?si=gHlk62BhUBCvKRWn",
+                "desc": "Keep DBs shaving your legs. Engage lats to keep back flat.",
+                "alt": "Cable Pull Through"
+            }
+        ],
+        "Hinge_Unilateral": [
+            {
+                "name": "Single Leg RDL",
+                "url": "https://youtube.com/shorts/Iq1LP6dnf1U?si=ThurG5UA9DNvCDlg",
+                "desc": "Use a wall for balance if needed. Keep hips square.",
+                "alt": "B-Stance RDL"
+            },
+            {
+                "name": "Cable Pull Through",
+                "url": "https://youtube.com/shorts/d3sH6fbCBP0?si=sUXes9nKbHGV2hT8",
+                "desc": "Face away from machine. Reach through legs. Squeeze glutes to stand up.",
+                "alt": "Kettlebell Swing"
+            }
+        ],
+        "Hamstring_Lengthened": [
+            {
+                "name": "Seated Leg Curl",
+                "url": "https://youtube.com/shorts/Lh3iMIcbkBQ?si=mkqZnPMLgyAxztSh",
+                "desc": "Lean forward to stretch hamstrings at hip. Control the negative.",
+                "alt": "Lying Leg Curl"
+            },
+            {
+                "name": "Lying Leg Curl",
+                "url": "https://youtube.com/shorts/ANKSmhT0dTk?si=et6o5XJZ5PbzeHep",
+                "desc": "Keep hips pinned to pad. No momentum.",
+                "alt": "Seated Leg Curl"
+            },
+            {
+                "name": "Swiss Ball Hamstring Curl",
+                "url": "https://youtube.com/shorts/xB1lGVzRwWk?si=RRX-KvoS6_oh6hM4",
+                "desc": "Glutes stay up. Curl with hamstrings.",
+                "alt": "Slider Curls"
+            }
+        ],
+        "Squat_Pattern": [
+            {
+                "name": "Smith Machine Squat",
+                "url": "https://youtube.com/shorts/iKCJCydYYrE?si=3qaupTI4aWw4zGO2",
+                "desc": "Place feet slightly forward. Keep torso upright. Biased towards quads/glutes depending on foot placement.",
+                "alt": "Hack Squat"
+            },
+            {
+                "name": "Goblet Squat",
+                "url": "https://youtube.com/shorts/lRYBbchqxtI?si=OAxWiUlyFoxi5dY2",
+                "desc": "Elevate heels on small plates. Keep torso upright. Deep squat.",
+                "alt": "Hack Squat"
+            },
+            {
+                "name": "Leg Press",
+                "url": "https://youtube.com/shorts/nDh_BlnLCGc?si=n1K7T6T4DNsJB3cP",
+                "desc": "Place feet high and wide for glutes, lower and closer for quads. Full ROM.",
+                "alt": "Belt Squat"
+            }
+        ],
+        "Squat_Unilateral": [
+            {
+                "name": "Split Squat",
+                "url": "https://youtube.com/shorts/o7yFuIR9XVU?si=D2J6uUrwF8g0ivSF",
+                "desc": "Static lunge position. Drop back knee straight down.",
+                "alt": "Walking Lunges"
+            },
+            {
+                "name": "Walking Lunges",
+                "url": "https://youtube.com/shorts/2ea3_b9rFdM?si=WoUkr0xrRpcU2AuA",
+                "desc": "Take long steps for glutes, shorter for quads and keep torso upright.",
+                "alt": "Split Squat"
+            },
+            {
+                "name": "Reverse Lunges",
+                "url": "https://youtube.com/shorts/38xlLGfguz4?si=j6ZQ4wXNx7bqOsa1",
+                "desc": "Step back. Keep front shin vertical. Good for knee health.",
+                "alt": "Split Squat"
+            },
+            {
+                "name": "Step Ups",
+                "url": "https://youtube.com/shorts/8q9LVgN2RD4?si=7Fx0ih7KJz6_amRq",
+                "desc": "Use a box at knee height. Drive through the heel. Control the descent.",
+                "alt": "Split Squat"
+            },
+            {
+                "name": "Bulgarian Split Squat",
+                "url": "https://youtu.be/hiLF_pF3EJM?si=VD9-4l4VvdC4yArO",
+                "desc": "Rear foot elevated. Lean forward for glutes, upright for quads.",
+                "alt": "Split Squat"
+            }
+        ],
+        "Lunge_Pattern": [
+            {
+                "name": "Walking Lunges",
+                "url": "https://youtube.com/shorts/2ea3_b9rFdM?si=WoUkr0xrRpcU2AuAI",
+                "desc": "Slight forward lean. Drive off front heel.",
+                "alt": "Reverse Lunges"
+            },
+            {
+                "name": "Curtsy Lunges",
+                "url": "https://youtube.com/shorts/WAW-2ehQ1GM?si=CmAjo8Y4sT0Zj7JY",
+                "desc": "Targets Glute Medius. Don't twist knee.",
+                "alt": "Deficit Reverse Lunge"
+            }
+        ],
+        "Quad_Isolation_Shortened": [
+            {
+                "name": "Leg Extensions",
+                "url": "https://youtube.com/shorts/ztNBgrGy6FQ?si=De_F45gTYKIHF7e1",
+                "desc": "Pause at the top. Squeeze quads hard.",
+                "alt": "Sissy Squat"
+            },
+            {
+                "name": "Sissy Squats",
+                "url": "https://youtube.com/shorts/8FLRIvqM3-Y?si=bTIf9Nq1RBD5TV0f",
+                "desc": "Maximum stretch on quads. Go deep.",
+                "alt": "Leg Extensions"
+            }
+        ],
+        "Vertical_Pull_Heavy": [
+            {
+                "name": "Lat Pulldown (Wide Grip)",
+                "url": "https://youtube.com/shorts/Oa1ta2lU3ZI?si=v8AAXj2SKUjeK95E",
+                "desc": "Athlean-X: Pull elbows to pockets. Don't lean back too far.",
+                "alt": "Assisted Pullup"
+            },
+            {
+                "name": "Assisted Pull Up",
+                "url": "https://youtube.com/shorts/owMowIRkyvQ?si=xas1FK-KovikgMQu",
+                "desc": "Athlean-X: Full stretch at bottom. Dead hang.",
+                "alt": "Lat Pulldown"
+            }
+        ],
+        "Vertical_Pull_Volume": [
+            {
+                "name": "Neutral Grip Lat Pulldown",
+                "url": "https://youtube.com/shorts/8Tbml_pGdwg?si=WOyXeNIcjIEm7spI",
+                "desc": "Biases lats over upper back.",
+                "alt": "Straight Arm Pulldown"
+            },
+            {
+                "name": "Straight Arm Pulldown",
+                "url": "https://youtube.com/shorts/hAMcfubonDc?si=HiVZW8SNIMQeV7tv",
+                "desc": "Keep elbows slightly bent but locked. Squeeze lats.",
+                "alt": "Dumbbell Pullover"
+            }
+        ],
+        "Horizontal_Row_Volume": [
+            {
+                "name": "Seated Cable Row",
+                "url": "https://youtube.com/shorts/Dg2_1kCcNAc?si=qrcQth9aaA8dKj3z",
+                "desc": "Athlean-X: Squeeze shoulder blades together. Don't swing.",
+                "alt": "Machine Row"
+            },
+            {
+                "name": "Chest Supported Row",
+                "url": "https://youtube.com/shorts/czoQ_ncuqqI?si=tqyR4-qPbu8DrW7Z",
+                "desc": "Eliminate momentum. Isolate the back.",
+                "alt": "Seal Row"
+            },
+            {
+                "name": "Single Arm Dumbbell Row",
+                "url": "https://youtube.com/shorts/q65uDGJ9ZPs?si=UVTXgmU8E80Zcyzs",
+                "desc": "Get a deep stretch at the bottom. Pull to hip.",
+                "alt": "Landmine Row"
+            }
+        ],
+        "Overhead_Press_Heavy": [
+            {
+                "name": "Overhead Press",
+                "url": "https://youtube.com/shorts/s-T3E6654A8?si=4Fy8SiLDb_RE3hm_",
+                "desc": "Athlean-X: Core tight. Glutes tight. Press vertically.",
+                "alt": "Dumbbell Shoulder Press"
+            },
+            {
+                "name": "Seated Dumbbell Press",
+                "url": "https://youtube.com/shorts/osEKVtXBLlU?si=bAxUQvwzq1aYzQDC",
+                "desc": "Full ROM. Touch DBs to shoulders.",
+                "alt": "Arnold Press"
+            }
+        ],
+        "Lateral_Delt_Iso": [
+            {
+                "name": "Dumbbell Lateral Raises",
+                "url": "https://youtube.com/shorts/Kl3LEzQ5Zqs?si=6C6M6KL57reDThyM",
+                "desc": "Athlean-X: Lead with elbows. Thumbs slightly down (pour pitcher).",
+                "alt": "Cable Lateral Raise"
+            },
+            {
+                "name": "Cable Lateral Raises",
+                "url": "https://youtube.com/shorts/xrBcuPNTxLg?si=jU7VG6FbFzAyupL_",
+                "desc": "Cross body for better stretch.",
+                "alt": "Machine Lateral Raise"
+            },
+            {
+                "name": "Lu Raises",
+                "url": "https://youtube.com/shorts/oZgHeEFY8pc?si=GJM9XZ4tSSNPzrSV",
+                "desc": "Full range overhead. Control eccentric.",
+                "alt": "DB Lateral Raise"
+            }
+        ],
+        "Rear_Delt_Fly": [
+            {
+                "name": "Face Pulls",
+                "url": "https://youtube.com/shorts/8686PLZB_1Q?si=opbAc4z8U3Ojsr1o",
+                "desc": "Athlean-X: Non-negotiable. Pull to forehead. External rotation.",
+                "alt": "Reverse Peck Deck"
+            },
+            {
+                "name": "Reverse Pec Deck",
+                "url": "https://youtube.com/shorts/7tgx6QHB0-A?si=YWVcCb6cyfasdQv1",
+                "desc": "Push back of hands away. Don't squeeze scapula too early.",
+                "alt": "Bent Over Fly"
+            }
+        ],
+        "Horizontal_Push": [
+            {
+                "name": "Pushups",
+                "url": "https://www.youtube.com/watch?v=IODxDxX7oi4",
+                "desc": "Athlean-X: Chest to floor. Full lockout. Core tight.",
+                "alt": "Incline DB Press"
+            },
+            {
+                "name": "Incline Dumbbell Press",
+                "url": "https://www.youtube.com/watch?v=8iPEnn-ltC8",
+                "desc": "Focus on upper chest shelf. 30 degree bench.",
+                "alt": "Machine Chest Press"
+            }
+        ],
+        "Tricep_Iso": [
+            {
+                "name": "Tricep Rope Pushdowns",
+                "url": "https://youtube.com/shorts/IKQ_bKGT3LQ?si=FpbxjOru1PeNU9N_",
+                "desc": "Athlean-X: Spread the rope at the bottom. Keep elbows pinned.",
+                "alt": "V-Bar Pushdown"
+            },
+            {
+                "name": "Skullcrushers",
+                "url": "https://youtube.com/shorts/K3mFeNz4e3w?si=BM7TS4Kksz5Rq6eP",
+                "desc": "Bring bar behind head for stretch. Don't hit your forehead.",
+                "alt": "Overhead Extension"
+            }
+        ],
+        "Tricep_Overhead": [
+            {
+                "name": "Overhead Cable Extension",
+                "url": "https://youtube.com/shorts/9Ark9S11uXw?si=iLMbOvVdtN5MN4g5",
+                "desc": "Stretch the long head of the tricep. Keep elbows in.",
+                "alt": "Dumbbell Overhead Ext"
+            },
+            {
+                "name": "Dips (Assisted)",
+                "url": "https://youtube.com/shorts/LH9iZNaO7oU?si=2QKZV4GD3d5N3cnO",
+                "desc": "Keep torso upright for triceps. Forward lean hits chest.",
+                "alt": "Close Grip Bench"
+            }
+        ],
+        "Bicep_Isolation": [
+            {
+                "name": "Dumbbell Curls",
+                "url": "https://youtube.com/shorts/VCw_uIxW8WE?si=nMwSViOF16jSQmqf",
+                "desc": "Athlean-X: Supinate (twist pinky up) at the top.",
+                "alt": "Cable Curls"
+            },
+            {
+                "name": "Hammer Curls",
+                "url": "https://youtube.com/shorts/lmIo_gVE8T4?si=ghrT1dCaD9yIFND_",
+                "desc": "Neutral grip. Hits brachialis.",
+                "alt": "Rope Hammer Curls"
+            },
+            {
+                "name": "Bayesian Curls",
+                "url": "https://youtube.com/shorts/BaSd7C58L3o?si=QPX-e0iEAIERzPNI",
+                "desc": "Cable behind back. Maximal stretch on bicep.",
+                "alt": "Incline DB Curls"
+            }
+        ],
+        "Abductor_Iso": [
+            {
+                "name": "Seated Abductor Machine",
+                "url": "https://youtube.com/shorts/tu4o4quPv2k?si=M67jD_-42qak9ePw",
+                "desc": "Lean forward to hit glutes more. Hold for 1s.",
+                "alt": "Band Abductions"
+            },
+            {
+                "name": "Standing Cable Abduction",
+                "url": "https://youtu.be/pvnR8CDb4BU?si=Uu4P4o5Pif7_qlb7",
+                "desc": "Stabilize your core. Kick straight out.",
+                "alt": "Side Lying Leg Raise"
+            }
+        ],
+        "Calves_Straight_Leg": [
+            {
+                "name": "Standing Calf Raise",
+                "url": "https://youtube.com/shorts/a-x_NR-ibos?si=dONQz6GYN_6qwtwz",
+                "desc": "Athlean-X: Deep stretch at bottom is crucial. Pause at bottom.",
+                "alt": "Leg Press Calf Raise"
+            },
+            {
+                "name": "Leg Press Calf Raise",
+                "url": "https://youtube.com/shorts/1cvpm--Y-4I?si=vG27F3AQHrSFSSZe",
+                "desc": "Don't bounce. Control the stretch.",
+                "alt": "Smith Machine Calf Raise"
+            }
+        ],
+        "Core_Stability": [
+            {
+                "name": "Plank",
+                "url": "https://youtube.com/shorts/xe2MXatLTUw?si=7pAR88AUsnswVTwt",
+                "desc": "Squeeze glutes. Don't let hips sag.",
+                "alt": "Deadbug"
+            },
+            {
+                "name": "Deadbugs",
+                "url": "https://youtube.com/shorts/DqLL45uk2Tk?si=VSVyeQMD7l4EZyrE",
+                "desc": "Keep lower back glued to floor. Breathe.",
+                "alt": "Bird Dog"
+            }
+        ],
+        "Core_Rotation": [
+            {
+                "name": "Russian Twists",
+                "url": "https://youtube.com/shorts/-BzNffL_6YE?si=U-u27I3S3N0l5MV8",
+                "desc": "Slow and controlled. Feet up if possible.",
+                "alt": "Cable Woodchoppers"
+            },
+            {
+                "name": "Cable Woodchoppers",
+                "url": "https://youtube.com/shorts/YIU0U_B57rU?si=eUq-4BZmynTBM5YV",
+                "desc": "Rotate with your thoracic spine, not hips. Arms straight.",
+                "alt": "Pallof Press"
+            }
+        ],
+        "Unilateral_Leg_Support": [
+            {
+                "name": "B-Stance RDL",
+                "url": "https://www.youtube.com/shorts/qC0aLz61m9Y",
+                "desc": "AI Suggested Variation",
+                "alt": "Standard Variation"
+            }
+        ]
+    }
+}

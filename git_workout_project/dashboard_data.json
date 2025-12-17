@@ -1,0 +1,18 @@
+{
+  "recovery": {
+    "sleep_score": 81,
+    "sleep_hours": 7.7,
+    "sleep_quality": "Excellent",
+    "body_battery": 23,
+    "hrv_status": "BALANCED",
+    "recovery_ready": true,
+    "notes": []
+  },
+  "last_updated": "2025-12-17T17:30:11.681262",
+  "cycle_phase": {
+    "phase": "Luteal",
+    "day": 21,
+    "energy": "Moderate - may feel more fatigued",
+    "training_tip": "Maintain volume but listen to body."
+  }
+}

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="theme-color" content="#d81b60" />
+  <meta name="description" content="Lianna's Personal Training Dashboard - AI-Powered Workouts" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <title>💪 Lianna's Training</title>
+  <link rel="icon" type="image/svg+xml"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💪</text></svg>" />
+  <link rel="stylesheet" href="/style.css" />
+</head>
+
+<body>
+  <div id="app">
+    <!-- Header -->
+    <header class="header">
+      <div class="header-content">
+        <h1 class="logo">💪 Lianna</h1>
+        <div class="cycle-badge" id="cycleBadge"></div>
+      </div>
+    </header>
+
+    <!-- Navigation Tabs -->
+    <nav class="nav-tabs">
+      <button class="nav-tab active" data-tab="workout">🏋️ Workout</button>
+      <button class="nav-tab" data-tab="nutrition">🥗 Nutrition</button>
+      <button class="nav-tab" data-tab="recovery">🧘 Recovery</button>
+      <button class="nav-tab" data-tab="progress">📊 Progress</button>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <!-- Workout Tab -->
+      <section class="tab-content active" id="workout-tab">
+        <div class="coaching-notes" id="coachingNotes"></div>
+        <div class="day-selector" id="daySelector"></div>
+        <div class="workout-list" id="workoutList"></div>
+      </section>
+
+      <!-- Nutrition Tab -->
+      <section class="tab-content" id="nutrition-tab">
+        <div class="nutrition-summary" id="nutritionSummary"></div>
+        <form class="nutrition-form" id="nutritionForm">
+          <h3>Log Today's Nutrition</h3>
+          <div class="input-group">
+            <label for="calories">Calories</label>
+            <input type="number" id="calories" placeholder="e.g. 1800" />
+          </div>
+          <div class="input-row">
+            <div class="input-group">
+              <label for="protein">Protein (g)</label>
+              <input type="number" id="protein" placeholder="120" />
+            </div>
+            <div class="input-group">
+              <label for="carbs">Carbs (g)</label>
+              <input type="number" id="carbs" placeholder="180" />
+            </div>
+            <div class="input-group">
+              <label for="fat">Fat (g)</label>
+              <input type="number" id="fat" placeholder="60" />
+            </div>
+          </div>
+          <button type="submit" class="btn-primary">Save Nutrition Log</button>
+        </form>
+      </section>
+
+      <!-- Recovery Tab -->
+      <section class="tab-content" id="recovery-tab">
+        <div class="recovery-section">
+          <h3>🧘 Yoga Flows</h3>
+          <div id="yogaFlows" class="recovery-cards"></div>
+        </div>
+        <div class="recovery-section">
+          <h3>🤸 Stretching Routines</h3>
+          <div id="stretchingRoutines" class="recovery-cards"></div>
+        </div>
+        <div class="recovery-section">
+          <h3>😴 Rest Day Activities</h3>
+          <div id="restDayActivities" class="recovery-cards"></div>
+        </div>
+      </section>
+
+      <!-- Progress Tab -->
+      <section class="tab-content" id="progress-tab">
+        <div class="progress-header">
+          <h3>Your Strength Journey</h3>
+          <p class="week-display">Week <span id="currentWeek">1</span></p>
+        </div>
+
+        <!-- Garmin Recovery Metrics -->
+        <div class="recovery-metrics-section">
+          <h4>⌚ Today's Recovery</h4>
+          <div class="recovery-metrics-grid" id="garminMetrics">
+            <div class="recovery-metric">
+              <div class="metric-icon">😴</div>
+              <div class="metric-value" id="sleepScore">--</div>
+              <div class="metric-label">Sleep Score</div>
+            </div>
+            <div class="recovery-metric">
+              <div class="metric-icon">⏱️</div>
+              <div class="metric-value" id="sleepHours">--</div>
+              <div class="metric-label">Hours Slept</div>
+            </div>
+            <div class="recovery-metric">
+              <div class="metric-icon">🔋</div>
+              <div class="metric-value" id="bodyBattery">--</div>
+              <div class="metric-label">Body Battery</div>
+            </div>
+            <div class="recovery-metric">
+              <div class="metric-icon">💓</div>
+              <div class="metric-value" id="hrvStatus">--</div>
+              <div class="metric-label">HRV Status</div>
+            </div>
+          </div>
+          <div class="recovery-status" id="recoveryStatus"></div>
+        </div>
+
+        <div class="stats-grid" id="statsGrid"></div>
+        <div class="chart-container">
+          <canvas id="progressChart"></canvas>
+        </div>
+      </section>
+    </main>
+
+    <!-- Exercise Detail Modal -->
+    <div class="modal" id="exerciseModal">
+      <div class="modal-content">
+        <button class="modal-close" id="modalClose">&times;</button>
+        <h2 id="modalTitle">Exercise Name</h2>
+        <div class="video-container" id="modalVideo"></div>
+        <p class="modal-cues" id="modalCues"></p>
+        <div class="log-form" id="logForm">
+          <h4>Log This Set</h4>
+          <div class="input-row">
+            <div class="input-group">
+              <label>Weight (lbs)</label>
+              <input type="number" id="logWeight" />
+            </div>
+            <div class="input-group">
+              <label>Reps</label>
+              <input type="number" id="logReps" />
+            </div>
+            <div class="input-group">
+              <label>RPE</label>
+              <select id="logRPE">
+                <option value="">-</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+              </select>
+            </div>
+          </div>
+          <button type="button" class="btn-primary" id="saveLog">Save & Mark Done ✓</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Chat Modal -->
+    <div class="chat-modal" id="chatModal">
+      <div class="chat-header">
+        <span>💬 Ask Coach</span>
+        <button class="chat-close" id="chatClose">&times;</button>
+      </div>
+      <div class="chat-messages" id="chatMessages">
+        <div class="chat-message assistant">
+          <p>Hi Lianna! 👋 I'm your AI coach. Ask me anything about your workouts, exercises, substitutions, or training
+            questions!</p>
+        </div>
+      </div>
+      <form class="chat-input-form" id="chatForm">
+        <input type="text" id="chatInput" placeholder="Ask a question..." autocomplete="off" />
+        <button type="submit" class="chat-send">→</button>
+      </form>
+    </div>
+
+    <!-- Floating Chat Button -->
+    <button class="chat-fab" id="chatFab">💬</button>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast"></div>
+  </div>
+
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>

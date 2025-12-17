@@ -1,0 +1,233 @@
+{
+    "stretching_routines": {
+        "post_lower_body": {
+            "name": "Lower Body Cool Down",
+            "duration": "10 mins",
+            "description": "Essential stretches after leg day to improve recovery and flexibility",
+            "exercises": [
+                {
+                    "name": "90/90 Hip Stretch",
+                    "duration": "60s each side",
+                    "url": "https://www.youtube.com/watch?v=8a2HFVC0Yz4",
+                    "cues": "Keep chest tall, rotate towards front leg"
+                },
+                {
+                    "name": "Pigeon Pose",
+                    "duration": "90s each side",
+                    "url": "https://www.youtube.com/watch?v=4-tjKrA0rnE",
+                    "cues": "Square hips, fold forward for deeper stretch"
+                },
+                {
+                    "name": "Standing Quad Stretch",
+                    "duration": "45s each side",
+                    "url": "https://www.youtube.com/watch?v=sLkIaNvWP38",
+                    "cues": "Squeeze glute, push hips forward"
+                },
+                {
+                    "name": "Seated Forward Fold",
+                    "duration": "60s",
+                    "url": "https://www.youtube.com/watch?v=3PF8y4SKu2g",
+                    "cues": "Hinge at hips, reach for toes"
+                },
+                {
+                    "name": "Figure Four Hip Stretch",
+                    "duration": "60s each side",
+                    "url": "https://www.youtube.com/watch?v=hW1z6M1cJRA",
+                    "cues": "Flex ankle, pull knee towards chest"
+                }
+            ]
+        },
+        "post_upper_body": {
+            "name": "Upper Body Cool Down",
+            "duration": "8 mins",
+            "description": "Stretches to release tension in shoulders, chest, and back",
+            "exercises": [
+                {
+                    "name": "Doorway Chest Stretch",
+                    "duration": "45s each arm",
+                    "url": "https://www.youtube.com/watch?v=hNOBU1CqrSc",
+                    "cues": "90 degree elbow, lean forward gently"
+                },
+                {
+                    "name": "Cross-Body Shoulder Stretch",
+                    "duration": "30s each arm",
+                    "url": "https://www.youtube.com/watch?v=qVek5XU1BsY",
+                    "cues": "Pull arm across chest, keep shoulder down"
+                },
+                {
+                    "name": "Overhead Tricep Stretch",
+                    "duration": "30s each arm",
+                    "url": "https://www.youtube.com/watch?v=_VQ2N3lE4ec",
+                    "cues": "Elbow points to ceiling, gentle press"
+                },
+                {
+                    "name": "Cat-Cow Stretch",
+                    "duration": "60s (10 reps)",
+                    "url": "https://www.youtube.com/watch?v=kqnua4rHVVA",
+                    "cues": "Flow with breath, full spinal movement"
+                },
+                {
+                    "name": "Thread the Needle",
+                    "duration": "45s each side",
+                    "url": "https://www.youtube.com/watch?v=lGIu9Npo-qs",
+                    "cues": "Rotate through thoracic spine"
+                }
+            ]
+        }
+    },
+    "yoga_flows": {
+        "morning_energize": {
+            "name": "Morning Energize Flow",
+            "duration": "12 mins",
+            "description": "Wake up your body and mind with this energizing sequence",
+            "url": "https://www.youtube.com/watch?v=4pKly2JojMw",
+            "best_for": [
+                "Follicular phase",
+                "Ovulation phase"
+            ],
+            "exercises": [
+                "Sun Salutation A (3 rounds)",
+                "Warrior I to Warrior II Flow",
+                "Triangle Pose",
+                "Chair Pose Hold",
+                "Standing Forward Fold"
+            ]
+        },
+        "evening_unwind": {
+            "name": "Evening Unwind Flow",
+            "duration": "15 mins",
+            "description": "Gentle, restorative sequence to reduce stress and improve sleep",
+            "url": "https://www.youtube.com/watch?v=v7AYKMP6rOE",
+            "best_for": [
+                "Luteal phase",
+                "Menstrual phase"
+            ],
+            "exercises": [
+                "Child's Pose (2 mins)",
+                "Supine Twist (each side)",
+                "Happy Baby",
+                "Legs Up the Wall",
+                "Corpse Pose with Deep Breathing"
+            ]
+        },
+        "hip_focused": {
+            "name": "Deep Hip Opening",
+            "duration": "20 mins",
+            "description": "Target tight hips from sitting and training",
+            "url": "https://www.youtube.com/watch?v=Ho8-3wbys5E",
+            "best_for": [
+                "Any phase",
+                "Rest days"
+            ],
+            "exercises": [
+                "Butterfly Pose",
+                "Low Lunge",
+                "Lizard Pose",
+                "Frog Pose",
+                "Pigeon Pose",
+                "Happy Baby"
+            ]
+        }
+    },
+    "rest_day_activities": {
+        "active_recovery": {
+            "name": "Active Recovery Day",
+            "description": "Light movement to promote blood flow and recovery",
+            "options": [
+                {
+                    "activity": "20-30 min Walk",
+                    "description": "Easy pace, preferably outdoors",
+                    "url": null
+                },
+                {
+                    "activity": "15 min Foam Rolling",
+                    "description": "Full body foam rolling routine",
+                    "url": "https://www.youtube.com/watch?v=bxQ68D4YEFQ"
+                },
+                {
+                    "activity": "Swimming (Light)",
+                    "description": "20-30 mins easy laps or water walking",
+                    "url": null
+                },
+                {
+                    "activity": "Yoga Flow",
+                    "description": "Choose from Evening Unwind or Hip Opening",
+                    "url": null
+                }
+            ]
+        },
+        "full_rest": {
+            "name": "Full Rest Day",
+            "description": "Prioritize recovery when energy is low (especially during menstrual phase)",
+            "recommendations": [
+                "Sleep 8+ hours",
+                "Stay hydrated (aim for 80+ oz water)",
+                "Gentle stretching if desired (5-10 mins)",
+                "Epsom salt bath",
+                "Meditation or breathing exercises"
+            ]
+        }
+    },
+    "warmup_routines": {
+        "dynamic_lower": {
+            "name": "Lower Body Warm-Up",
+            "duration": "5 mins",
+            "exercises": [
+                {
+                    "name": "Leg Swings (front/back)",
+                    "reps": "10 each leg"
+                },
+                {
+                    "name": "Leg Swings (side/side)",
+                    "reps": "10 each leg"
+                },
+                {
+                    "name": "Walking Lunges",
+                    "reps": "10 total"
+                },
+                {
+                    "name": "Bodyweight Squats",
+                    "reps": "10"
+                },
+                {
+                    "name": "Glute Bridges",
+                    "reps": "10"
+                },
+                {
+                    "name": "Fire Hydrants",
+                    "reps": "10 each side"
+                }
+            ]
+        },
+        "dynamic_upper": {
+            "name": "Upper Body Warm-Up",
+            "duration": "5 mins",
+            "exercises": [
+                {
+                    "name": "Arm Circles (forward)",
+                    "reps": "15"
+                },
+                {
+                    "name": "Arm Circles (backward)",
+                    "reps": "15"
+                },
+                {
+                    "name": "Band Pull Aparts",
+                    "reps": "15"
+                },
+                {
+                    "name": "Wall Angels",
+                    "reps": "10"
+                },
+                {
+                    "name": "Push-Up to Downward Dog",
+                    "reps": "8"
+                },
+                {
+                    "name": "Inchworms",
+                    "reps": "5"
+                }
+            ]
+        }
+    }
+}
