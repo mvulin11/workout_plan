@@ -50,6 +50,7 @@ jobs:
           # Only commit if there are changes
           if [[ -n $(git status -s) ]]; then
             git commit -m "Weekly workout update - Week $(date +%U)"
+            git pull --rebase origin main
             git push
           else
             echo "No changes to commit"
