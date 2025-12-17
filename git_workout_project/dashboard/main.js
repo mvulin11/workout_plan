@@ -484,6 +484,53 @@ const $$ = (selector) => document.querySelectorAll(selector);
 // INITIALIZATION
 // ===================================
 
+const GITHUB_DATA_URL = 'https://raw.githubusercontent.com/mvulin11/workout_plan/master/git_workout_project/dashboard_data.json';
+
+async function fetchLiveData() {
+    try {
+        const response = await fetch(GITHUB_DATA_URL + '?t=' + Date.now()); // Cache bust
+        if (response.ok) {
+            const liveData = await response.json();
+
+            // Update Garmin recovery data
+            if (liveData.recovery) {
+                GARMIN_RECOVERY_DATA.sleep_score = liveData.recovery.sleep_score;
+                GARMIN_RECOVERY_DATA.sleep_duration_hours = liveData.recovery.sleep_hours;
+                GARMIN_RECOVERY_DATA.sleep_quality = liveData.recovery.sleep_quality;
+                GARMIN_RECOVERY_DATA.body_battery_current = liveData.recovery.body_battery;
+                GARMIN_RECOVERY_DATA.hrv_status = liveData.recovery.hrv_status;
+                GARMIN_RECOVERY_DATA.recovery_ready = liveData.recovery.recovery_ready;
+            }
+
+            // Update cycle phase if available
+            if (liveData.cycle_phase) {
+                state.workoutData.cycle_phase = liveData.cycle_phase;
+            }
+
+            // Update workouts if available
+            if (liveData.workouts) {
+                Object.keys(liveData.workouts).forEach(day => {
+                    state.workoutData[day] = liveData.workouts[day];
+                });
+            }
+
+            if (liveData.coaching_notes) {
+                state.workoutData.coaching_notes = liveData.coaching_notes;
+            }
+
+            console.log('Live data loaded:', liveData.last_updated);
+
+            // Re-render with live data
+            renderCycleBadge();
+            renderCoachingNotes();
+            renderWorkoutList();
+            renderProgressTab();
+        }
+    } catch (error) {
+        console.log('Using cached data, live fetch failed:', error);
+    }
+}
+
 document.addEventListener('DOMContentLoaded', () => {
     initTabs();
     initDaySelector();
@@ -495,6 +542,9 @@ document.addEventListener('DOMContentLoaded', () => {
     renderProgressTab();
     initModal();
     initNutritionForm();
+
+    // Fetch live data from GitHub
+    fetchLiveData();
 });
 
 // ===================================
