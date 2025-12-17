@@ -2,7 +2,7 @@
     "user_name": "Lianna",
     "primary_goal": "Aesthetic Hypertrophy",
     "google_sheet_name": "My Workout Plan",
-    "current_week": 2,
+    "current_week": 3,
     "user_context": {
         "stats": "Female, 5'2'', 110 lbs",
         "experience": "Intermediate/Advanced (1+ year with advanced coaching)",
@@ -498,6 +498,62 @@
             {
                 "name": "B-Stance RDL",
                 "url": "https://www.youtube.com/shorts/qC0aLz61m9Y",
+                "desc": "AI Suggested Variation",
+                "alt": "Standard Variation"
+            }
+        ],
+        "Unilateral Support": [
+            {
+                "name": "B-Stance Dumbbell RDL",
+                "url": "https://www.youtube.com/shorts/qC0aLz61m9Y",
+                "desc": "AI Suggested Variation",
+                "alt": "Standard Variation"
+            }
+        ],
+        "Finisher": [
+            {
+                "name": "Frog Pumps",
+                "url": "https://youtu.be/MQ62r2V7Lw8?si=2Q8PGLqmFTOwyx4s",
+                "desc": "AI Suggested Variation",
+                "alt": "Standard Variation"
+            }
+        ],
+        "Tricep Focus": [
+            {
+                "name": "Overhead Cable Extension (Rope)",
+                "url": "https://youtube.com/shorts/9Ark9S11uXw?si=iLMbOvVdtN5MN4g5",
+                "desc": "AI Suggested Variation",
+                "alt": "Standard Variation"
+            }
+        ],
+        "Unilateral Quad/Glute": [
+            {
+                "name": "Bulgarian Split Squat (Dumbbells)",
+                "url": "https://youtu.be/hiLF_pF3EJM?si=VD9-4l4VvdC4yArO",
+                "desc": "AI Suggested Variation",
+                "alt": "Standard Variation"
+            }
+        ],
+        "Obliques": [
+            {
+                "name": "Cable Woodchoppers",
+                "url": "https://youtube.com/shorts/YIU0U_B57rU?si=eUq-4BZmynTBM5YV",
+                "desc": "AI Suggested Variation",
+                "alt": "Standard Variation"
+            }
+        ],
+        "Tricep Isolation": [
+            {
+                "name": "Dumbbell Skullcrushers",
+                "url": "https://youtube.com/shorts/K3mFeNz4e3w?si=BM7TS4Kksz5Rq6eP",
+                "desc": "AI Suggested Variation",
+                "alt": "Standard Variation"
+            }
+        ],
+        "Glute Volume": [
+            {
+                "name": "Smith Machine Reverse Lunges",
+                "url": "https://youtube.com/shorts/38xlLGfguz4?si=j6ZQ4wXNx7bqOsa1",
                 "desc": "AI Suggested Variation",
                 "alt": "Standard Variation"
             }

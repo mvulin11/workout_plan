@@ -1,4 +1,12 @@
 {
+  "last_updated": "2025-12-17T23:08:21.079671",
+  "current_week": 2,
+  "cycle_phase": {
+    "phase": "Luteal",
+    "day": 21,
+    "energy": "Moderate - may feel more fatigued",
+    "training_tip": "Maintain volume but listen to body."
+  },
   "recovery": {
     "sleep_score": 81,
     "sleep_hours": 7.7,
@@ -8,11 +16,358 @@
     "recovery_ready": true,
     "notes": []
   },
-  "last_updated": "2025-12-17T23:02:28.471143",
-  "cycle_phase": {
-    "phase": "Luteal",
-    "day": 21,
-    "energy": "Moderate - may feel more fatigued",
-    "training_tip": "Maintain volume but listen to body."
+  "coaching_notes": [
+    {
+      "exercise": "We are entering Day 21 (Luteal Phase). Your body temperature is higher and recovery might be slightly slower, so we are keeping the volume high for hypertrophy but pulling back slightly on 1RM intensity. Focus on perfect form, slower eccentrics (lowering phase), and the 'pump' rather than hitting new strength PRs this specific week. Hydration is non-negotiable this week.",
+      "category": "Unspecified",
+      "sets": "3",
+      "reps": "10",
+      "rest": "60s",
+      "cues": "Focus on form.",
+      "url": "https://www.youtube.com/results?search_query=We+are+entering+Day+21+(Luteal+Phase).+Your+body+temperature+is+higher+and+recovery+might+be+slightly+slower,+so+we+are+keeping+the+volume+high+for+hypertrophy+but+pulling+back+slightly+on+1RM+intensity.+Focus+on+perfect+form,+slower+eccentrics+(lowering+phase),+and+the+'pump'+rather+than+hitting+new+strength+PRs+this+specific+week.+Hydration+is+non-negotiable+this+week.",
+      "is_new": false
+    }
+  ],
+  "workouts": {
+    "Monday": [
+      {
+        "category": "Glute Compound",
+        "exercise": "Smith Machine Hip Thrust",
+        "sets": 3,
+        "reps": "10-12",
+        "rest": "120s",
+        "target_weight": "140-150 lbs (Total)",
+        "url": "https://www.youtube.com/watch?v=pXrlpwmdpI4",
+        "cues": "Chin tucked, look forward. Drive through heels. Full lockout at top.",
+        "is_new": false
+      },
+      {
+        "category": "Hinge Pattern",
+        "exercise": "Dumbbell RDL",
+        "sets": 3,
+        "reps": "10-12",
+        "rest": "90s",
+        "target_weight": "35-40 lbs (per hand)",
+        "url": "https://youtube.com/shorts/CBOhr6H7BEY?si=gHlk62BhUBCvKRWn",
+        "cues": "Imagine closing a car door with your butt. Shins vertical.",
+        "is_new": false
+      },
+      {
+        "category": "Unilateral Support",
+        "exercise": "B-Stance Dumbbell RDL",
+        "sets": 3,
+        "reps": "12 each leg",
+        "rest": "60s",
+        "target_weight": "25-30 lbs",
+        "url": "https://www.youtube.com/shorts/qC0aLz61m9Y",
+        "cues": "Back toe aligns with front heel. 80% weight on front leg.",
+        "is_new": true
+      },
+      {
+        "category": "Hamstring Isolation",
+        "exercise": "Seated Leg Curl",
+        "sets": 3,
+        "reps": "15-20",
+        "rest": "60s",
+        "target_weight": "RPE 8",
+        "url": "https://youtube.com/shorts/Lh3iMIcbkBQ?si=mkqZnPMLgyAxztSh",
+        "cues": "Lean forward slightly. Control the weight up, don't let it fly.",
+        "is_new": false
+      },
+      {
+        "category": "Glute Medius",
+        "exercise": "Cable Kickbacks",
+        "sets": 3,
+        "reps": "15 each leg",
+        "rest": "45s",
+        "target_weight": "10-15 lbs",
+        "url": "https://youtube.com/shorts/n-cgsNePyFo?si=PMGE9IxoVJETx5dn",
+        "cues": "Don't arch back. Kick slightly out at 30-degree angle.",
+        "is_new": false
+      },
+      {
+        "category": "Finisher",
+        "exercise": "Frog Pumps",
+        "sets": 2,
+        "reps": "30+",
+        "rest": "30s",
+        "target_weight": "Bodyweight",
+        "url": "https://youtu.be/MQ62r2V7Lw8?si=2Q8PGLqmFTOwyx4s",
+        "cues": "Soles of feet together. Tuck chin. Pump fast.",
+        "is_new": true
+      }
+    ],
+    "Tuesday": [
+      {
+        "category": "Vertical Pull",
+        "exercise": "Neutral Grip Lat Pulldown",
+        "sets": 4,
+        "reps": "10-12",
+        "rest": "90s",
+        "target_weight": "70-75 lbs",
+        "url": "https://youtube.com/shorts/8Tbml_pGdwg?si=WOyXeNIcjIEm7spI",
+        "cues": "Drive elbows down to pockets. Shoulders away from ears.",
+        "is_new": false
+      },
+      {
+        "category": "Shoulder Press",
+        "exercise": "Seated Dumbbell Overhead Press",
+        "sets": 3,
+        "reps": "8-10",
+        "rest": "90s",
+        "target_weight": "20-25 lbs",
+        "url": "https://youtube.com/shorts/osEKVtXBLlU?si=bAxUQvwzq1aYzQDC",
+        "cues": "Core braced. Press slightly in front of head, not behind.",
+        "is_new": false
+      },
+      {
+        "category": "Horizontal Row",
+        "exercise": "Seated Cable Row",
+        "sets": 3,
+        "reps": "12",
+        "rest": "90s",
+        "target_weight": "RPE 8",
+        "url": "https://youtube.com/shorts/Dg2_1kCcNAc?si=qrcQth9aaA8dKj3z",
+        "cues": "Stretch forward at bottom. Squeeze scapula at top.",
+        "is_new": false
+      },
+      {
+        "category": "Tricep Focus",
+        "exercise": "Overhead Cable Extension (Rope)",
+        "sets": 4,
+        "reps": "12-15",
+        "rest": "60s",
+        "target_weight": "RPE 8",
+        "url": "https://youtube.com/shorts/9Ark9S11uXw?si=iLMbOvVdtN5MN4g5",
+        "cues": "Keep elbows close to head. Full stretch at bottom.",
+        "is_new": true
+      },
+      {
+        "category": "Delt Iso",
+        "exercise": "Dumbbell Lateral Raises",
+        "sets": 3,
+        "reps": "15-20",
+        "rest": "60s",
+        "target_weight": "10-12.5 lbs",
+        "url": "https://youtube.com/shorts/Kl3LEzQ5Zqs?si=6C6M6KL57reDThyM",
+        "cues": "Lead with elbows. Pour the pitcher at the top.",
+        "is_new": false
+      },
+      {
+        "category": "Rear Delt/Posture",
+        "exercise": "Face Pulls",
+        "sets": 3,
+        "reps": "15",
+        "rest": "60s",
+        "target_weight": "Light/Moderate",
+        "url": "https://youtube.com/shorts/8686PLZB_1Q?si=opbAc4z8U3Ojsr1o",
+        "cues": "Thumbs back. Pull to forehead. Squeeze rear delts.",
+        "is_new": false
+      }
+    ],
+    "Wednesday": [
+      {
+        "category": "Quad Compound",
+        "exercise": "Smith Machine Squat",
+        "sets": 4,
+        "reps": "8-10",
+        "rest": "120s",
+        "target_weight": "75-85 lbs",
+        "url": "https://youtube.com/shorts/iKCJCydYYrE?si=3qaupTI4aWw4zGO2",
+        "cues": "Feet shoulder width. Control eccentric (3 sec down).",
+        "is_new": false
+      },
+      {
+        "category": "Unilateral Quad/Glute",
+        "exercise": "Bulgarian Split Squat (Dumbbells)",
+        "sets": 3,
+        "reps": "10 each leg",
+        "rest": "90s",
+        "target_weight": "15-20 lbs",
+        "url": "https://youtu.be/hiLF_pF3EJM?si=VD9-4l4VvdC4yArO",
+        "cues": "Torso upright for quads. Drop back knee straight down.",
+        "is_new": true
+      },
+      {
+        "category": "Quad Isolation",
+        "exercise": "Leg Extensions",
+        "sets": 3,
+        "reps": "15-20",
+        "rest": "60s",
+        "target_weight": "RPE 9",
+        "url": "https://youtube.com/shorts/ztNBgrGy6FQ?si=De_F45gTYKIHF7e1",
+        "cues": "Hold top squeeze for 1 second every rep.",
+        "is_new": false
+      },
+      {
+        "category": "Calves",
+        "exercise": "Leg Press Calf Raise",
+        "sets": 4,
+        "reps": "15-20",
+        "rest": "45s",
+        "target_weight": "RPE 8",
+        "url": "https://youtube.com/shorts/1cvpm--Y-4I?si=vG27F3AQHrSFSSZe",
+        "cues": "Deep stretch at bottom. Pause. explode up.",
+        "is_new": false
+      },
+      {
+        "category": "Obliques",
+        "exercise": "Cable Woodchoppers",
+        "sets": 3,
+        "reps": "15 each side",
+        "rest": "60s",
+        "target_weight": "Light/Moderate",
+        "url": "https://youtube.com/shorts/YIU0U_B57rU?si=eUq-4BZmynTBM5YV",
+        "cues": "Rotate with chest, not hips. Keep arms straight.",
+        "is_new": true
+      },
+      {
+        "category": "Core Stability",
+        "exercise": "Plank",
+        "sets": 3,
+        "reps": "Failure",
+        "rest": "60s",
+        "target_weight": "Bodyweight",
+        "url": "https://youtube.com/shorts/xe2MXatLTUw?si=7pAR88AUsnswVTwt",
+        "cues": "Squeeze glutes hard. Pull belly button to spine.",
+        "is_new": false
+      }
+    ],
+    "Thursday": [
+      {
+        "category": "Push (Chest/Delts)",
+        "exercise": "Incline Dumbbell Press",
+        "sets": 3,
+        "reps": "10-12",
+        "rest": "90s",
+        "target_weight": "20-25 lbs",
+        "url": "https://www.youtube.com/watch?v=8iPEnn-ltC8",
+        "cues": "Bench at 30 degrees. Elbows at 45 degree angle.",
+        "is_new": false
+      },
+      {
+        "category": "Pull (Unilateral)",
+        "exercise": "Single Arm Dumbbell Row",
+        "sets": 3,
+        "reps": "12 each side",
+        "rest": "60s",
+        "target_weight": "25-30 lbs",
+        "url": "https://youtube.com/shorts/q65uDGJ9ZPs?si=UVTXgmU8E80Zcyzs",
+        "cues": "Pull to hip bone, not chest. Keep back flat.",
+        "is_new": false
+      },
+      {
+        "category": "Tricep Isolation",
+        "exercise": "Dumbbell Skullcrushers",
+        "sets": 4,
+        "reps": "12-15",
+        "rest": "60s",
+        "target_weight": "10-15 lbs",
+        "url": "https://youtube.com/shorts/K3mFeNz4e3w?si=BM7TS4Kksz5Rq6eP",
+        "cues": "Hinge at elbow only. DBs go beside ears.",
+        "is_new": true
+      },
+      {
+        "category": "Side Delts",
+        "exercise": "Cable Lateral Raises",
+        "sets": 3,
+        "reps": "15 each side",
+        "rest": "45s",
+        "target_weight": "RPE 8",
+        "url": "https://youtube.com/shorts/xrBcuPNTxLg?si=jU7VG6FbFzAyupL_",
+        "cues": "Set cable to hand height. Reach 'out' not just up.",
+        "is_new": false
+      },
+      {
+        "category": "Biceps",
+        "exercise": "Dumbbell Hammer Curls",
+        "sets": 3,
+        "reps": "12-15",
+        "rest": "60s",
+        "target_weight": "12.5-15 lbs",
+        "url": "https://youtube.com/shorts/lmIo_gVE8T4?si=ghrT1dCaD9yIFND_",
+        "cues": "Thumbs up grip. Control the drop.",
+        "is_new": false
+      },
+      {
+        "category": "Core Rotation",
+        "exercise": "Russian Twists",
+        "sets": 3,
+        "reps": "20 total",
+        "rest": "45s",
+        "target_weight": "10 lb plate",
+        "url": "https://youtube.com/shorts/-BzNffL_6YE?si=U-u27I3S3N0l5MV8",
+        "cues": "Feet up. Follow weight with eyes.",
+        "is_new": false
+      }
+    ],
+    "Friday": [
+      {
+        "category": "Glute Volume",
+        "exercise": "Smith Machine Reverse Lunges",
+        "sets": 3,
+        "reps": "10 each leg",
+        "rest": "90s",
+        "target_weight": "RPE 7-8",
+        "url": "https://youtube.com/shorts/38xlLGfguz4?si=j6ZQ4wXNx7bqOsa1",
+        "cues": "Step far back. Front shin stays vertical.",
+        "is_new": true
+      },
+      {
+        "category": "Hinge/Glute",
+        "exercise": "45 Degree Hyperextension (Glute Bias)",
+        "sets": 3,
+        "reps": "15-20",
+        "rest": "60s",
+        "target_weight": "Bodyweight or 10lb plate",
+        "url": "https://youtube.com/shorts/S1_eZIIZlIc?si=QaAPkyC-BxGkBX77",
+        "cues": "Round upper back. Chin tucked. Squeeze glutes to lift.",
+        "is_new": false
+      },
+      {
+        "category": "Side Glute",
+        "exercise": "Seated Abductor Machine",
+        "sets": 3,
+        "reps": "20 (Drop set last set)",
+        "rest": "60s",
+        "target_weight": "RPE 9",
+        "url": "https://youtube.com/shorts/tu4o4quPv2k?si=M67jD_-42qak9ePw",
+        "cues": "Lean forward to target glutes. Don't bounce.",
+        "is_new": false
+      },
+      {
+        "category": "Back Volume",
+        "exercise": "Straight Arm Pulldown",
+        "sets": 3,
+        "reps": "15",
+        "rest": "60s",
+        "target_weight": "RPE 8",
+        "url": "https://youtube.com/shorts/hAMcfubonDc?si=HiVZW8SNIMQeV7tv",
+        "cues": "Slight elbow bend but locked. Isolate lats.",
+        "is_new": false
+      },
+      {
+        "category": "Shoulder Burnout",
+        "exercise": "Cable Face Pulls",
+        "sets": 3,
+        "reps": "15-20",
+        "rest": "45s",
+        "target_weight": "Light",
+        "url": "https://youtube.com/shorts/8686PLZB_1Q?si=opbAc4z8U3Ojsr1o",
+        "cues": "High volume for rear delt health.",
+        "is_new": false
+      },
+      {
+        "category": "Calf Finisher",
+        "exercise": "Standing Calf Raise (Smith or Machine)",
+        "sets": 3,
+        "reps": "Failure",
+        "rest": "45s",
+        "target_weight": "Moderate",
+        "url": "https://youtube.com/shorts/a-x_NR-ibos?si=dONQz6GYN_6qwtwz",
+        "cues": "Pause 2 seconds at bottom stretch.",
+        "is_new": false
+      }
+    ]
   }
 }
