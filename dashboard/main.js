@@ -484,7 +484,7 @@ const $$ = (selector) => document.querySelectorAll(selector);
 // INITIALIZATION
 // ===================================
 
-const GITHUB_DATA_URL = 'https://raw.githubusercontent.com/mvulin11/workout_plan/master/git_workout_project/dashboard_data.json';
+const GITHUB_DATA_URL = 'https://raw.githubusercontent.com/mvulin11/workout_plan/main/dashboard_data.json';
 
 async function fetchLiveData() {
     try {
