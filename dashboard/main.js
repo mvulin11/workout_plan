@@ -484,11 +484,11 @@ const $$ = (selector) => document.querySelectorAll(selector);
 // INITIALIZATION
 // ===================================
 
-const GITHUB_DATA_URL = 'https://raw.githubusercontent.com/mvulin11/workout_plan/main/dashboard_data.json';
+const GITHUB_DATA_URL = '/api/data';
 
 async function fetchLiveData() {
     try {
-        const response = await fetch(GITHUB_DATA_URL + '?t=' + Date.now()); // Cache bust
+        const response = await fetch(GITHUB_DATA_URL);
         if (response.ok) {
             const liveData = await response.json();
 
