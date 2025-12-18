@@ -496,6 +496,7 @@ async function fetchLiveData() {
             if (liveData.recovery) {
                 GARMIN_RECOVERY_DATA.sleep_score = liveData.recovery.sleep_score;
                 GARMIN_RECOVERY_DATA.sleep_duration_hours = liveData.recovery.sleep_hours;
+
                 GARMIN_RECOVERY_DATA.sleep_quality = liveData.recovery.sleep_quality;
                 GARMIN_RECOVERY_DATA.body_battery_current = liveData.recovery.body_battery;
                 GARMIN_RECOVERY_DATA.hrv_status = liveData.recovery.hrv_status;
@@ -615,9 +616,20 @@ function renderCycleBadge() {
 
 function renderCoachingNotes() {
     const container = $('#coachingNotes');
+    let notesText = state.workoutData.coaching_notes;
+
+    // Handle array of objects (from AI) or string
+    if (Array.isArray(notesText)) {
+        notesText = notesText.map(note =>
+            typeof note === 'object' ? (note.exercise || note.text || JSON.stringify(note)) : note
+        ).join(' ');
+    } else if (typeof notesText === 'object') {
+        notesText = notesText.exercise || notesText.text || JSON.stringify(notesText);
+    }
+
     container.innerHTML = `
     <h4>🎯 Coach's Notes</h4>
-    <p>${state.workoutData.coaching_notes}</p>
+    <p>${notesText || 'No coaching notes for this week.'}</p>
   `;
 }
 
