@@ -48,8 +48,9 @@ def get_recovery_data(target_date=None):
     - hrv_status: HRV status from Garmin
     - recovery_ready: Boolean indicating if ready for intense training
     """
+    # Use yesterday by default - sleep data is more complete
     if target_date is None:
-        target_date = date.today()
+        target_date = date.today() - timedelta(days=1)
     
     # Format date for Garmin API
     date_str = target_date.isoformat()
