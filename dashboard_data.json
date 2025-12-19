@@ -1,9 +1,9 @@
 {
-  "last_updated": "2025-12-18T10:37:58.908150",
+  "last_updated": "2025-12-19T10:36:39.871085",
   "current_week": 2,
   "cycle_phase": {
     "phase": "Luteal",
-    "day": 22,
+    "day": 23,
     "energy": "Moderate - may feel more fatigued",
     "training_tip": "Maintain volume but listen to body."
   },
@@ -11,8 +11,8 @@
     "sleep_score": null,
     "sleep_hours": null,
     "sleep_quality": null,
-    "body_battery": null,
-    "hrv_status": null,
+    "body_battery": 36,
+    "hrv_status": "BALANCED",
     "recovery_ready": true,
     "notes": []
   },
