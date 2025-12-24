@@ -1,17 +1,17 @@
 {
-  "last_updated": "2025-12-23T10:38:03.348360",
+  "last_updated": "2025-12-24T10:35:46.334397",
   "current_week": 3,
   "cycle_phase": {
     "phase": "Luteal",
-    "day": 27,
+    "day": 28,
     "energy": "Moderate - may feel more fatigued",
     "training_tip": "Maintain volume but listen to body."
   },
   "recovery": {
-    "sleep_score": 76,
-    "sleep_hours": 6.6,
+    "sleep_score": 77,
+    "sleep_hours": 6.8,
     "sleep_quality": "Good",
-    "body_battery": 26,
+    "body_battery": 29,
     "hrv_status": "LOW",
     "recovery_ready": true,
     "notes": [
