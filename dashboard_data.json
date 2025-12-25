@@ -1,22 +1,20 @@
 {
-  "last_updated": "2025-12-24T10:35:46.334397",
+  "last_updated": "2025-12-25T10:35:46.074574",
   "current_week": 3,
   "cycle_phase": {
-    "phase": "Luteal",
-    "day": 28,
-    "energy": "Moderate - may feel more fatigued",
-    "training_tip": "Maintain volume but listen to body."
+    "phase": "Menstrual",
+    "day": 1,
+    "energy": "Variable - listen to your body",
+    "training_tip": "Lighter weights OK. Focus on form. Rest if needed."
   },
   "recovery": {
-    "sleep_score": 77,
-    "sleep_hours": 6.8,
-    "sleep_quality": "Good",
-    "body_battery": 29,
-    "hrv_status": "LOW",
+    "sleep_score": 94,
+    "sleep_hours": 7.9,
+    "sleep_quality": "Excellent",
+    "body_battery": 19,
+    "hrv_status": "UNBALANCED",
     "recovery_ready": true,
-    "notes": [
-      "Low HRV - prioritize recovery"
-    ]
+    "notes": []
   },
   "coaching_notes": [
     {
