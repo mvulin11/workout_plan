@@ -1,17 +1,17 @@
 {
-  "last_updated": "2025-12-27T10:34:07.800966",
+  "last_updated": "2025-12-28T10:34:25.017801",
   "current_week": 3,
   "cycle_phase": {
     "phase": "Menstrual",
-    "day": 3,
+    "day": 4,
     "energy": "Variable - listen to your body",
     "training_tip": "Lighter weights OK. Focus on form. Rest if needed."
   },
   "recovery": {
-    "sleep_score": 98,
-    "sleep_hours": 9.2,
+    "sleep_score": 95,
+    "sleep_hours": 8.2,
     "sleep_quality": "Excellent",
-    "body_battery": 55,
+    "body_battery": 54,
     "hrv_status": "BALANCED",
     "recovery_ready": true,
     "notes": []
