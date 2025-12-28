@@ -2,7 +2,7 @@
     "user_name": "Lianna",
     "primary_goal": "Aesthetic Hypertrophy",
     "google_sheet_name": "My Workout Plan",
-    "current_week": 4,
+    "current_week": 5,
     "user_context": {
         "stats": "Female, 5'2'', 110 lbs",
         "experience": "Intermediate/Advanced (1+ year with advanced coaching)",
@@ -178,6 +178,12 @@
                 "url": "https://youtube.com/shorts/d3sH6fbCBP0?si=sUXes9nKbHGV2hT8",
                 "desc": "Face away from machine. Reach through legs. Squeeze glutes to stand up.",
                 "alt": "Kettlebell Swing"
+            },
+            {
+                "name": "B-Stance Dumbbell RDL",
+                "url": "https://www.youtube.com/shorts/qC0aLz61m9Y",
+                "desc": "AI Suggested Variation",
+                "alt": "Standard Variation"
             }
         ],
         "Hamstring_Lengthened": [
@@ -478,6 +484,12 @@
                 "url": "https://youtube.com/shorts/DqLL45uk2Tk?si=VSVyeQMD7l4EZyrE",
                 "desc": "Keep lower back glued to floor. Breathe.",
                 "alt": "Bird Dog"
+            },
+            {
+                "name": "Plank to Pike (Slider or Socks)",
+                "url": "https://youtu.be/maxe4c-62t8?si=Z6W4qD9tW6Xz1b_e",
+                "desc": "AI Suggested Variation",
+                "alt": "Standard Variation"
             }
         ],
         "Core_Rotation": [
@@ -554,6 +566,22 @@
             {
                 "name": "Smith Machine Reverse Lunges",
                 "url": "https://youtube.com/shorts/38xlLGfguz4?si=j6ZQ4wXNx7bqOsa1",
+                "desc": "AI Suggested Variation",
+                "alt": "Standard Variation"
+            }
+        ],
+        "Tricep_Heavy": [
+            {
+                "name": "Smith Machine Close Grip Bench Press",
+                "url": "https://youtu.be/U6xY6mO_nNw?si=Mv_nCXh-1jK1WlO_",
+                "desc": "AI Suggested Variation",
+                "alt": "Standard Variation"
+            }
+        ],
+        "Core_Lower": [
+            {
+                "name": "Captain's Chair Leg Raises",
+                "url": "https://youtu.be/Perm749o1Ls?si=7vQJ7QzZgX6J8x5y",
                 "desc": "AI Suggested Variation",
                 "alt": "Standard Variation"
             }
