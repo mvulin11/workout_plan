@@ -1,18 +1,18 @@
 {
-  "last_updated": "2025-12-30T10:37:32.711644",
+  "last_updated": "2025-12-31T10:35:43.680240",
   "current_week": 4,
   "cycle_phase": {
     "phase": "Follicular",
-    "day": 6,
+    "day": 7,
     "energy": "HIGH - rising estrogen = strength gains!",
     "training_tip": "BEST time for heavy lifts & PRs! Push hard."
   },
   "recovery": {
-    "sleep_score": 92,
-    "sleep_hours": 7.1,
-    "sleep_quality": "Excellent",
-    "body_battery": 15,
-    "hrv_status": "BALANCED",
+    "sleep_score": null,
+    "sleep_hours": null,
+    "sleep_quality": null,
+    "body_battery": null,
+    "hrv_status": null,
     "recovery_ready": true,
     "notes": []
   },
