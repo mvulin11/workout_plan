@@ -1,22 +1,20 @@
 {
-  "last_updated": "2026-01-02T10:35:16.800765",
+  "last_updated": "2026-01-03T10:34:17.794131",
   "current_week": 4,
   "cycle_phase": {
     "phase": "Follicular",
-    "day": 9,
+    "day": 10,
     "energy": "HIGH - rising estrogen = strength gains!",
     "training_tip": "BEST time for heavy lifts & PRs! Push hard."
   },
   "recovery": {
-    "sleep_score": 38,
-    "sleep_hours": 4.7,
-    "sleep_quality": "Poor",
-    "body_battery": 47,
+    "sleep_score": 87,
+    "sleep_hours": 11.2,
+    "sleep_quality": "Excellent",
+    "body_battery": 52,
     "hrv_status": "BALANCED",
-    "recovery_ready": false,
-    "notes": [
-      "Poor sleep - consider lighter workout"
-    ]
+    "recovery_ready": true,
+    "notes": []
   },
   "coaching_notes": [
     {
